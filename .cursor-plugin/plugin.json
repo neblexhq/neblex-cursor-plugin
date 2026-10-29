@@ -1,0 +1,15 @@
+{
+  "name": "neblex",
+  "displayName": "Neblex",
+  "version": "1.0.0",
+  "description": "Build, test and run integrations, workflows, forms, apps and AI agents in Neblex Integration Fabric (iPaaS) from Cursor, through the hosted Neblex MCP server with OAuth sign-in.",
+  "author": {
+    "name": "Neblex",
+    "email": "community@neblex.com"
+  },
+  "homepage": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
+  "repository": "https://github.com/neblexhq/neblex-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "ipaas", "integration", "workflow", "automation", "etl", "data-quality", "ai-agents", "on-premises", "neblex"],
+  "logo": "assets/logo.png"
+}
