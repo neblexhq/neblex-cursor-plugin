@@ -21,9 +21,15 @@ Connects Cursor to the hosted Neblex MCP server, so Cursor's agent can build, te
 
 ## Setup:
 
-1. Install the Neblex plugin from the Cursor Marketplace, or search for "Neblex" in Customize.
+1. Install the plugin. The Cursor Marketplace listing is in review; until it's live, install it manually:
+
+   ```bash
+   git clone https://github.com/neblexhq/neblex-cursor-plugin.git ~/.cursor/plugins/local/neblex
+   ```
+
+   Then reload Cursor (Developer: Reload Window) and check that Neblex appears in Customize.
 2. Approve the `neblex` MCP server when Cursor asks.
-3. On first use, Cursor opens the Neblex sign-in in your browser. Sign in and choose the scopes on the consent screen.
+3. On first use, Cursor opens the Neblex sign-in in your browser. Sign in, choose the scopes and the projects or flows Cursor may reach on the consent screen, and approve.
 
 There is no API key to copy. The plugin only points Cursor at `https://if.neblex.com/mcp` (Streamable HTTP, OAuth).
 
