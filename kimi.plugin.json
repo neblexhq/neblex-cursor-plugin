@@ -8,7 +8,17 @@
   },
   "homepage": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
   "license": "MIT",
-  "keywords": ["mcp", "ipaas", "integration", "workflow", "automation", "data-quality", "ai-agents", "on-premises", "neblex"],
+  "keywords": [
+    "mcp",
+    "ipaas",
+    "integration",
+    "workflow",
+    "automation",
+    "data-quality",
+    "ai-agents",
+    "on-premises",
+    "neblex"
+  ],
   "interface": {
     "displayName": "Neblex Integration Fabric",
     "shortDescription": "Build workflows and AI agents with built-in data quality",
@@ -21,7 +31,8 @@
         "description": "Hosted Neblex MCP server (Streamable HTTP, OAuth)",
         "iconUrl": "https://raw.githubusercontent.com/neblexhq/neblex-cursor-plugin/main/assets/logo.png"
       }
-    }
+    },
+    "category": "PRODUCTIVITY"
   },
   "mcpServers": {
     "neblex": {
