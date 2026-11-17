@@ -62,6 +62,16 @@ gemini extensions install https://github.com/neblexhq/neblex-cursor-plugin
 
 Start Gemini CLI and run `/mcp auth neblex` if it doesn't open the Neblex sign-in on first use.
 
+## Google Antigravity:
+
+The `antigravity/` folder is an Antigravity plugin. Clone the repository, then run:
+
+```bash
+agy plugin install ./neblex-cursor-plugin/antigravity
+```
+
+On first use, Antigravity opens the Neblex sign-in in your browser.
+
 ## Sign-in and permissions:
 
 - OAuth 2.1 with dynamic client registration. Interactive building uses step-up with an enrolled second factor.

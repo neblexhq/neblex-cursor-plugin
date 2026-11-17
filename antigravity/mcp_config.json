@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "neblex": {
+      "url": "https://if.neblex.com/mcp",
+      "oauth": {}
+    }
+  }
+}

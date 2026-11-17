@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "neblex",
+  "displayName": "Neblex Integration Fabric",
+  "version": "1.0.0",
+  "description": "Build, test and run integration flows and AI agents with built-in data quality and human approvals across 300+ connectors.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "List my Neblex flows and show any runs that failed this week",
+    "Why did the last run of my CRM to billing sync fail?",
+    "Build a flow that removes duplicate emails from a data table and test it"
+  ],
+  "author": {
+    "name": "Neblex",
+    "url": "https://www.neblex.com"
+  },
+  "homepage": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
+  "repository": "https://github.com/neblexhq/neblex-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "ipaas", "integration", "workflow", "automation", "data-quality", "ai-agents"]
+}
