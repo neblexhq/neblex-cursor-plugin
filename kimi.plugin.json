@@ -1,7 +1,7 @@
 {
   "name": "neblex",
   "version": "1.0.0",
-  "description": "Build, test and run integrations, workflows, forms, apps and AI agents in Neblex Integration Fabric (iPaaS) from Kimi Code, through the hosted Neblex MCP server with OAuth sign-in.",
+  "description": "Build, test and run integrations, workflows, forms, apps and AI agents in Neblex Integration Fabric (iPaaS) from Kimi Work or Kimi Code, through the hosted Neblex MCP server with OAuth sign-in.",
   "author": {
     "name": "Neblex",
     "email": "community@neblex.com"
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Neblex Integration Fabric",
     "shortDescription": "Build workflows and AI agents with built-in data quality",
-    "longDescription": "Connects Kimi Code to Neblex Integration Fabric, an integration platform (iPaaS). Build and test flows from a prompt, open a failed run and see the step and record it broke on, add deduplication and validation steps, and check flow health across 300+ connectors. OAuth sign-in with two-factor; you choose the scopes on the consent screen.",
+    "longDescription": "Connects Kimi to Neblex Integration Fabric, an integration platform (iPaaS). Build and test flows from a prompt, open a failed run and see the step and record it broke on, add deduplication and validation steps, and check flow health across 300+ connectors. OAuth sign-in with two-factor; you choose the scopes on the consent screen.",
     "developerName": "Neblex",
     "websiteURL": "https://www.neblex.com/integration-fabric",
     "mcpOverrides": {
