@@ -1,0 +1,10 @@
+{
+  "name": "neblex",
+  "version": "1.0.0",
+  "description": "Build, test and run integration flows and AI agents with built-in data quality in Neblex Integration Fabric (iPaaS), through the hosted Neblex MCP server with OAuth sign-in.",
+  "mcpServers": {
+    "neblex": {
+      "httpUrl": "https://if.neblex.com/mcp"
+    }
+  }
+}

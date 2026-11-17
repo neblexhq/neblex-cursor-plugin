@@ -52,6 +52,16 @@ The same repository also works as a Kimi Code plugin (`kimi.plugin.json`). In Ki
 
 Then run `/reload`. On first use, Kimi Code opens the Neblex sign-in in your browser, the same as Cursor.
 
+## Gemini CLI:
+
+The repository is also a Gemini CLI extension (`gemini-extension.json`). Install it with:
+
+```bash
+gemini extensions install https://github.com/neblexhq/neblex-cursor-plugin
+```
+
+Start Gemini CLI and run `/mcp auth neblex` if it doesn't open the Neblex sign-in on first use.
+
 ## Sign-in and permissions:
 
 - OAuth 2.1 with dynamic client registration. Interactive building uses step-up with an enrolled second factor.
