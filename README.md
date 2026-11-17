@@ -42,6 +42,16 @@ Ask the agent: "List my Neblex flows." You should see the flows in your workspac
 - "Draft an IT service desk agent that answers from our SOPs and asks before it opens a ticket."
 - "Connect our Postgres database and send me the link to enter the password."
 
+## Kimi Code:
+
+The same repository also works as a Kimi Code plugin (`kimi.plugin.json`). In Kimi Code, run:
+
+```text
+/plugins install https://github.com/neblexhq/neblex-cursor-plugin
+```
+
+Then run `/reload`. On first use, Kimi Code opens the Neblex sign-in in your browser, the same as Cursor.
+
 ## Sign-in and permissions:
 
 - OAuth 2.1 with dynamic client registration. Interactive building uses step-up with an enrolled second factor.
