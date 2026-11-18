@@ -1,0 +1,14 @@
+{
+  "name": "neblex",
+  "version": "1.0.0",
+  "description": "Build, test and run integration flows and AI agents with built-in data quality and human approvals in Neblex Integration Fabric (iPaaS), through the hosted Neblex MCP server. Sign in with your Neblex account on first connection; no API key needed.",
+  "author": {
+    "name": "Neblex",
+    "url": "https://www.neblex.com"
+  },
+  "homepage": "https://www.neblex.com/integration-fabric/docs/guide/mcp",
+  "repository": "https://github.com/neblexhq/neblex-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["neblex", "ipaas", "integration", "workflow automation", "data quality", "neblex mcp"],
+  "logo": "assets/logo.png"
+}

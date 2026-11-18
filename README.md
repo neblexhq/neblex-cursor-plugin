@@ -72,6 +72,10 @@ agy plugin install ./neblex-cursor-plugin/antigravity
 
 On first use, Antigravity opens the Neblex sign-in in your browser.
 
+## Grok Build:
+
+The repository is also a Grok Build plugin (`.grok-plugin/plugin.json` and `.mcp.json`). Install it from the xAI plugin marketplace once listed. On first use, Grok Build opens the Neblex sign-in in your browser.
+
 ## Sign-in and permissions:
 
 - OAuth 2.1 with dynamic client registration. Interactive building uses step-up with an enrolled second factor.
