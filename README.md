@@ -76,6 +76,29 @@ On first use, Antigravity opens the Neblex sign-in in your browser.
 
 The repository is also a Grok Build plugin (`.grok-plugin/plugin.json` and `.mcp.json`). Install it from the xAI plugin marketplace once listed. On first use, Grok Build opens the Neblex sign-in in your browser.
 
+## Cline and Kilo Code:
+
+Add Neblex as a remote MCP server:
+
+1. Open the MCP Servers settings and choose **Add Remote Server**.
+2. Server name `neblex`, server URL `https://if.neblex.com/mcp` (Streamable HTTP).
+3. Click **Authenticate** on the new server and sign in to Neblex in your browser.
+
+Or add it to the MCP configuration file directly:
+
+```json
+{
+  "mcpServers": {
+    "neblex": {
+      "type": "streamableHttp",
+      "url": "https://if.neblex.com/mcp"
+    }
+  }
+}
+```
+
+Then ask: "Use the neblex MCP server to list my flows."
+
 ## Sign-in and permissions:
 
 - OAuth 2.1 with dynamic client registration. Interactive building uses step-up with an enrolled second factor.
